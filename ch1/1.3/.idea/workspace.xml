@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388735e5-5b06-45f7-a045-574698866dd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../1.2/src/Accumulator/TestAccumulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1.2/src/Accumulator/TestVisualAccumulator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1.2/src/Accumulator/VisualAccumulator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.2/src/E1/TetsVisualCount2Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.2/src/E1/VisualCount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../1.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/src/Counter/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/src/Counter/Counter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.2/src/Counter/Flips.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/src/Counter/Flips.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.2/src/Accumulator/TestVisualAccumulator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.2/src/Accumulator/TestVisualAccumulator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -232,7 +230,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="1" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25321338" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

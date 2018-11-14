@@ -13,7 +13,6 @@ public class TestVisualAccumulator {
         int T = s.nextInt();
 
         VisualAccumulator a = new VisualAccumulator(T , 1.0);
-//        Accumulator a = new Accumulator();
         for (int i = 0; i < T; i++) {
             a.addDataValue(StdRandom.random());
         }
