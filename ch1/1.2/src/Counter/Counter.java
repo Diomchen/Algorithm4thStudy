@@ -14,6 +14,10 @@ public class Counter {
         count++;
     }
 
+    public int tally(){
+        return count;
+    }
+
     public String toString(){
         return count+" "+id;
     }
