@@ -1,6 +1,7 @@
 package E1;
 
 import edu.princeton.cs.algs4.StdDraw;
+import edu.princeton.cs.algs4.StdOut;
 
 import java.awt.*;
 import java.util.ArrayList;
@@ -27,8 +28,9 @@ public class VisualCount {
     public void drawMinLine(ArrayList arr){
         for(int i=0 ; i<arr.size() ; i++){
             for(int j=0 ; j<arr.size() ; j++){
-                if(i!=j && min>(Math.abs(j-i)+Math.abs((double)arr.get(j)-(double)arr.get(i)))){
-                    min = (Math.abs(j-i)+Math.abs((double)arr.get(j)-(double)arr.get(i)));
+                double k = (Math.abs(j-i)+Math.abs((double)arr.get(j)-(double)arr.get(i)));
+                if(i!=j && min>k){
+                    min = k;
                     m = j;
                     n = i;
                 }
@@ -36,6 +38,6 @@ public class VisualCount {
         }
         StdDraw.setPenColor(Color.RED);
         StdDraw.line(m,(double)arr.get(m),n,(double)arr.get(n));
+        StdOut.println("MinLine:"+Math.sqrt(Math.pow(m-n,2)+Math.pow(((double)arr.get(m)-(double)arr.get(n)),2)));
     }
-
 }

@@ -19,7 +19,5 @@ public class TetsVisualCount2Point {
             arr.add(x);
         }
         v.drawMinLine(arr);
-
-
     }
 }
