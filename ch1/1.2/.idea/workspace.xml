@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="304bd504-de99-4b68-ad3e-c7badf6ad3bf" name="Default Changelist" comment="完成1.2.1">
-      <change afterPath="$PROJECT_DIR$/../1.3/src/FixedCapacityStackOfStringEx/FixedCapacityStackOfString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1.3/src/FixedCapacityStackOfStringEx/TestFixed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E1/TetsVisualCount2Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E1/TetsVisualCount2Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E1/VisualCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E1/VisualCount.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E2/Interval1DVisual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E2/Interval1DVisual.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.3/src/Evaluate/Eva.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/src/Evaluate/Eva.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,6 +16,7 @@
     <session id="-126826604">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.opened" value="3" />
@@ -84,8 +79,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/E1/TetsVisualCount2Point.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+            <state relative-caret-position="170">
+              <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -147,7 +142,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
@@ -216,7 +211,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542289622519" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542360948471" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -329,7 +324,7 @@
       <updated>1542158971446</updated>
       <workItem from="1542158974641" duration="2691000" />
       <workItem from="1542190768132" duration="10988000" />
-      <workItem from="1542262362854" duration="3535000" />
+      <workItem from="1542262362854" duration="4241000" />
     </task>
     <task id="LOCAL-00001" summary="准备完成计数器">
       <created>1542160375980</created>
@@ -356,10 +351,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17214000" />
+    <option name="totallyTimeSpent" value="17920000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="916" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15938303" />
@@ -488,8 +483,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/E1/TetsVisualCount2Point.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        <state relative-caret-position="170">
+          <caret line="8" column="44" lean-forward="true" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
