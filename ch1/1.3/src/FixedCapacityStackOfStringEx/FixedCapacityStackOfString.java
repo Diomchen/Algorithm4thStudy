@@ -5,6 +5,11 @@ public class FixedCapacityStackOfString {
     private int N;
     public FixedCapacityStackOfString(int cap){
         a = new String [cap];
+        /*
+        * 如果用范型数组的话，最好是这种方式创建泛型数组
+        * a = (Item[]) new Object[cap]
+        * */
+
     }
 
     public boolean isEmpty(){
