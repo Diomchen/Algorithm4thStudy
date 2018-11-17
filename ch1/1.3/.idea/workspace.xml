@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388735e5-5b06-45f7-a045-574698866dd0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4/MyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E4/Parentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FixedCapacityStackOfStringEx/mian.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseArrayIteratorPack/ReverseArrayIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ReverseArrayIteratorPack/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/1.3/FixedCapacityStackOfStringEx/FixedCapacityStackOfString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/1.3/FixedCapacityStackOfStringEx/FixedCapacityStackOfString.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,73 +38,58 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="5" />
+          <entry key="java" value="10" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="5" />
+          <entry key="JAVA" value="10" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2152" />
+          <entry key="dummy" value="2" />
+          <entry key="java" value="4618" />
           <entry key="txt" value="74" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2152" />
-          <entry key="PLAIN_TEXT" value="74" />
+          <entry key="JAVA" value="4618" />
+          <entry key="PLAIN_TEXT" value="76" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BagUse/TestBag.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Evaluate/Eva.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/FixedCapacityStackOfStringEx/TestFixed.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/FixedCapacityStackOfStringEx/FixedCapacityStackOfString.java">
+        <entry file="file://$PROJECT_DIR$/src/E4/Parentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            <state relative-caret-position="-36">
+              <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/E4/MyStack.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#105#106#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#181#182#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
+                <element signature="e#236#237#0" expanded="true" />
+                <element signature="e#260#261#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,6 +117,10 @@
         <option value="$PROJECT_DIR$/src/FixedCapacityStackOfStringEx/TestFixed.java" />
         <option value="$PROJECT_DIR$/src/FixedCapacityStackOfStringEx/tope.txt" />
         <option value="$PROJECT_DIR$/src/FixedCapacityStackOfStringEx/FixedCapacityStackOfString.java" />
+        <option value="$PROJECT_DIR$/src/FixedCapacityStackOfStringEx/mian.java" />
+        <option value="$PROJECT_DIR$/src/ReverseArrayIteratorPack/ReverseArrayIterator.java" />
+        <option value="$PROJECT_DIR$/src/E4/MyStack.java" />
+        <option value="$PROJECT_DIR$/src/E4/Parentheses.java" />
       </list>
     </option>
   </component>
@@ -134,9 +130,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1616" />
     <option name="height" value="916" />
   </component>
@@ -179,19 +174,13 @@
               <item name="1.3" type="b2602c69:ProjectViewProjectNode" />
               <item name="1.3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="BagUse" type="462c0819:PsiDirectoryNode" />
+              <item name="E4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1.3" type="b2602c69:ProjectViewProjectNode" />
               <item name="1.3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Evaluate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="FixedCapacityStackOfStringEx" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,7 +192,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542368564917" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542462271049" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -226,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestFixed">
+  <component name="RunManager" selected="Application.Parentheses">
     <configuration name="Eva" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Evaluate.Eva" />
       <module name="1.3" />
@@ -240,12 +229,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestBag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BagUse.TestBag" />
+    <configuration name="MyStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E4.MyStack" />
       <module name="1.3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BagUse.*" />
+          <option name="PATTERN" value="E4.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Parentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E4.Parentheses" />
+      <module name="1.3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,16 +268,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="mian" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FixedCapacityStackOfStringEx.mian" />
+      <module name="1.3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FixedCapacityStackOfStringEx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.TestBag" />
       <item itemvalue="Application.Eva" />
       <item itemvalue="Application.TestFixed" />
+      <item itemvalue="Application.mian" />
+      <item itemvalue="Application.MyStack" />
+      <item itemvalue="Application.Parentheses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Parentheses" />
+        <item itemvalue="Application.MyStack" />
+        <item itemvalue="Application.mian" />
         <item itemvalue="Application.TestFixed" />
         <item itemvalue="Application.Eva" />
-        <item itemvalue="Application.TestBag" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +312,7 @@
       <workItem from="1542190767152" duration="966000" />
       <workItem from="1542262362634" duration="7520000" />
       <workItem from="1542363476587" duration="1596000" />
-      <workItem from="1542366182881" duration="2305000" />
+      <workItem from="1542366182881" duration="13065000" />
     </task>
     <task id="LOCAL-00001" summary="bag——完成度[90%]">
       <created>1542117448746</created>
@@ -316,14 +335,28 @@
       <option name="project" value="LOCAL" />
       <updated>1542368301979</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完成定容栈，但是无法读取txt文件">
+      <created>1542368560969</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542368560969</updated>
+    </task>
+    <task id="LOCAL-00005" summary="完成定容栈，但是无法读取txt文件">
+      <created>1542368571660</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542368571660</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17745000" />
+    <option name="totallyTimeSpent" value="28505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="916" extended-state="0" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16323908" />
@@ -335,7 +368,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2988792" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.69613945" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39975095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,16 +405,6 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/BagUse/Bag.java" />
-    <entry file="file://$PROJECT_DIR$/src/BagUse/TestBag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="11" selection-start-line="11" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Evaluate/Eva.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -399,6 +422,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/FixedCapacityStackOfStringEx/mian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="21" column="55" lean-forward="true" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FixedCapacityStackOfStringEx/FixedCapacityStackOfString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ReverseArrayIteratorPack/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FixedCapacityStackOfStringEx/TestFixed.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -409,10 +453,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FixedCapacityStackOfStringEx/FixedCapacityStackOfString.java">
+    <entry file="file://$PROJECT_DIR$/src/ReverseArrayIteratorPack/ReverseArrayIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        <state relative-caret-position="170">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BagUse/TestBag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/E4/MyStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#105#106#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#181#182#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/E4/Parentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="7" column="38" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
         </state>
       </provider>
     </entry>
