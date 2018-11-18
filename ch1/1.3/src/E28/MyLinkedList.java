@@ -135,6 +135,30 @@ public class MyLinkedList<E> implements Iterable<E> {
         return max;
     }
 
+    public int recursionFindMax(Node f){
+        int max ;
+        if(f == null){
+            return 0;
+        }
+        else {
+            max = recursionFM(f.next,-99999);
+        }
+        return max;
+    }
+
+    private int recursionFM(Node f,int e){
+        int max = e;
+        if((Integer)f.e >max ){
+            max = (Integer) f.e;
+        }
+        if(f.next == null){
+            return max;
+        }
+        else {
+            return recursionFM(f.next,max);
+        }
+    }
+
     public Node getNode(int index){
         Node be = first;
         for(int i=0 ; i<N ; i++){
@@ -179,8 +203,8 @@ public class MyLinkedList<E> implements Iterable<E> {
         ml.addFirst(1);
         ml.addFirst(2);
         ml.addFirst(33);
-        ml.addFirst(4);
+        ml.addFirst(54);
         ml.addFirst(5);
-        StdOut.println(ml.max(ml.first));
+        StdOut.println(ml.recursionFindMax(ml.first));
     }
 }
