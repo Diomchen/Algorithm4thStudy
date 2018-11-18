@@ -6,6 +6,10 @@ import edu.princeton.cs.algs4.StdOut;
 import java.util.Objects;
 import java.util.Scanner;
 
+/*
+*
+* 直接弹栈计算
+* */
 public class EvaluatePostfix {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
