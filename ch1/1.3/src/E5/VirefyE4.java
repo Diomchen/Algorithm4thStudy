@@ -12,8 +12,11 @@ public class VirefyE4 {
             N = N/2;
         }
 
-        for(int i =0 ; i<st.size() ; i++){
-            StdOut.println(st.remove());
+//        for(Integer x : st){
+//            StdOut.println(st.remove());
+//        }
+        for(Integer x : st){
+            StdOut.println(st.peek());
         }
     }
 }

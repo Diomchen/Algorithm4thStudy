@@ -3,7 +3,9 @@ package E4;
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
-public class MyStack<E> {
+import java.util.Iterator;
+
+public class MyStack<E> implements Iterable<E>{
     private E[] Arr;
     private int N;
     public MyStack(int x){
@@ -43,6 +45,35 @@ public class MyStack<E> {
             temp[i] = Arr[i];
         }
         Arr = temp;
+    }
+
+    public E peek(){
+        int k = N;
+        return Arr[--k];
+    }
+
+    @Override
+    public Iterator<E> iterator() {
+        return new RArrIterator();
+    }
+
+    private class RArrIterator implements Iterator<E>{
+
+        private int i = N;
+        @Override
+        public boolean hasNext() {
+            return i>0;
+        }
+
+        @Override
+        public E next() {
+            return Arr[--i];
+        }
+
+        @Override
+        public void remove() {
+
+        }
     }
 //
 //    public static void main(String[] args) {
