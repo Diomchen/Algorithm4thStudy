@@ -98,15 +98,7 @@ public class MyCircleQueue<E>  {
         mcq.enqueue(1);
         mcq.enqueue(2);
         mcq.enqueue(3);
-        mcq.enqueue(1);
-        mcq.enqueue(2);
-        mcq.enqueue(3);
-        mcq.enqueue(1);
-        mcq.enqueue(2);
-        mcq.enqueue(3);
-        mcq.enqueue(1);
-        mcq.enqueue(2);
-        mcq.enqueue(3);
+
         System.out.println("-----------------");
 
         StdOut.println(mcq.dequeue());
