@@ -5,7 +5,6 @@ import edu.princeton.cs.algs4.StdOut;
 import java.util.Iterator;
 
 public class MyLinkedList<E> implements Iterable<E> {
-    private Node node;
     private Node first;
     private int N;
     private class Node{
@@ -46,37 +45,6 @@ public class MyLinkedList<E> implements Iterable<E> {
         N--;
         return e;
     }
-
-    /*
-    *
-    * 双端链表才能达到此目的
-    * 或者,getNode函数
-    * */
-//    public void addLast(E e){
-//        Node temp = first;
-//        Node newNode = new Node(e);
-//        for(int i=0 ; i<N ; i++){
-//            temp = temp.next;
-//        }
-//        temp.e= newNode.e;
-//        N++;
-//    }
-//
-//    public E removeLast(){
-//        if(N == 0)throw new IllegalArgumentException("error");
-//        Node temp = first;
-//        Node oldNode = temp;
-//        E e = null;
-//        for(int i=0 ; i<N ; i++){
-//            oldNode = temp;
-//            temp = temp.next;
-//        }
-//        e = temp.e;
-//        oldNode.next = null;
-//        N--;
-//
-//        return e;
-//    }
 
     public void removeAfter(Node newNode){
         if(newNode!=null && newNode.next!=null){
