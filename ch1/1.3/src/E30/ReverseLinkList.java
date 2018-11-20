@@ -57,7 +57,7 @@ public class ReverseLinkList<E> {
         return e;
     }
 
-    //迭代法反转链表
+    //迭代法反转链表（这是我的菜鸡写法）存在小bug
     public Node ReverseLL1(Node first){
         second = first.next;
 
@@ -102,9 +102,21 @@ public class ReverseLinkList<E> {
 
     }
 
+    public Node ReverseLL2(Node x){
+        Node first   = x;
+        Node reverse = null;
+        while(first!=null){
+            Node second = first.next;
+            first.next  = reverse;
+            reverse     = first;
+            first       = second;
+        }
+        return reverse;
+    }
+
     public void stdOutReverse(){
         Node f = ReverseLL1(first);
-        while(f.next!=null){
+        while(f!=null){
             System.out.println(f.e);
             f = f.next;
         }
@@ -123,7 +135,6 @@ public class ReverseLinkList<E> {
         ri.addLast(57);
         StdOut.println("--------------");
         ri.stdOutReverse();
-
 
     }
 }
