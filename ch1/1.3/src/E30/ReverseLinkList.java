@@ -102,6 +102,7 @@ public class ReverseLinkList<E> {
 
     }
 
+    //优化后的链表反转函数：迭代法
     public Node ReverseLL2(Node x){
         Node first   = x;
         Node reverse = null;
@@ -112,6 +113,15 @@ public class ReverseLinkList<E> {
             first       = second;
         }
         return reverse;
+    }
+
+    //递归算法
+    public Node ReverseLLRecursion1(){
+
+
+
+
+
     }
 
     public void stdOutReverse(){
