@@ -1,7 +1,11 @@
 package UnionFind;
 
+import edu.princeton.cs.algs4.StdOut;
+
 import java.sql.SQLOutput;
+import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.Stack;
 
 /*
 * Author    :   DiomChen
@@ -18,6 +22,7 @@ public class UF {
         for(int i=0 ; i<N ; i++){
             id[i] = i;
         }
+        count = N;
     }
 
     public int count(){
@@ -25,7 +30,7 @@ public class UF {
     }
 
     public boolean connected(int p,int q){
-        return id[p] == id[q];
+        return find(p) == find(q);
     }
 
     public void union(int p,int q){
@@ -40,10 +45,30 @@ public class UF {
             if(id[i] == pId)
                 id[i] = qId;
         }
+
+        count--;
     }
 
     public int find(int p){
         return id[p];
+    }
+
+    public void consoleConnect(int N){
+        LinkedList<Integer> lTemp = new LinkedList<>();
+
+        for(int i=0 ; i<id.length-1 ; i++){
+            StringBuilder strb = new StringBuilder();
+            if(!lTemp.contains(id[i])){
+                strb.append(i);
+                lTemp.addLast(id[i]);
+                for(int j = i+1 ; j<id.length ; j++){
+                    if(id[i] == id[j]){
+                        strb.append("-->"+j);
+                    }
+                }
+                System.out.println(strb.toString());
+            }
+        }
     }
 
     public static void main(String[] args) {
@@ -51,9 +76,20 @@ public class UF {
         System.out.println("Please input N :");
         int N  = in.nextInt();
         UF uf = new UF(N);
-        while(){
-
+        int p = 0;
+        int q = 0;
+        while(true){
+            System.out.println("Please input 'p' and 'q' : ");
+            p = in.nextInt();
+            if(p == 99999){
+                  break;
+            }
+            q = in.nextInt();
+            if(!uf.connected(p,q)){
+                uf.union(p,q);
+            }
         }
-
+        uf.consoleConnect(N);
+        StdOut.println("----------------\n"+uf.count()+" components ");
     }
 }
