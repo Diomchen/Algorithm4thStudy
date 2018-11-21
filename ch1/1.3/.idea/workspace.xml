@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388735e5-5b06-45f7-a045-574698866dd0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E31/DoubleLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.5/.idea/libraries/algs4.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E30/ReverseLinkList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E30/ReverseLinkList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.5/.idea/libraries/algs4.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../1.5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.5/src/UnionFind/UF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.5/src/UnionFind/UF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.5/1.5.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.5/1.5.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,27 +37,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="28" />
+          <entry key="java" value="29" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="28" />
+          <entry key="JAVA" value="29" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="13464" />
-          <entry key="txt" value="266" />
+          <entry key="java" value="15043" />
+          <entry key="txt" value="276" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13464" />
-          <entry key="PLAIN_TEXT" value="268" />
+          <entry key="JAVA" value="15043" />
+          <entry key="PLAIN_TEXT" value="278" />
         </counts>
       </usages-collector>
     </session>
@@ -77,17 +78,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/E30/ReverseLinkList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="3860">
+              <caret line="164" selection-start-line="164" selection-end-line="164" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#182#183#0" expanded="true" />
                 <element signature="e#209#210#0" expanded="true" />
                 <element signature="e#372#373#0" expanded="true" />
                 <element signature="e#408#409#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/E31/DoubleLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="303">
+              <caret line="148" column="26" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#271#272#0" expanded="true" />
+                <element signature="e#307#308#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#738#739#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -142,6 +161,7 @@
         <option value="$PROJECT_DIR$/src/Test/test.java" />
         <option value="$PROJECT_DIR$/src/E29/MyCircleQueue.java" />
         <option value="$PROJECT_DIR$/src/E30/ReverseLinkList.java" />
+        <option value="$PROJECT_DIR$/src/E31/DoubleLinkedList.java" />
       </list>
     </option>
   </component>
@@ -195,7 +215,7 @@
               <item name="1.3" type="b2602c69:ProjectViewProjectNode" />
               <item name="1.3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="E28" type="462c0819:PsiDirectoryNode" />
+              <item name="E31" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,7 +228,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542776184820" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542803194918" />
     <property name="last_opened_file_path" value="D:/浏览器下载目录/ActiveVisualiser-master/ActiveVisualiser-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -231,13 +251,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReverseLinkList">
-    <configuration name="MyCircleQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E29.MyCircleQueue" />
+  <component name="RunManager" selected="Application.DoubleLinkedList">
+    <configuration name="DoubleLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E31.DoubleLinkedList" />
       <module name="1.3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="E29.*" />
+          <option name="PATTERN" value="E31.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,12 +265,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E28.MyLinkedList" />
+    <configuration name="MyCircleQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E29.MyCircleQueue" />
       <module name="1.3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="E28.*" />
+          <option name="PATTERN" value="E29.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -292,19 +312,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MyLinkedList" />
       <item itemvalue="Application.MyCircleQueue" />
       <item itemvalue="Application.test" />
       <item itemvalue="Application.test (1)" />
       <item itemvalue="Application.ReverseLinkList" />
+      <item itemvalue="Application.DoubleLinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DoubleLinkedList" />
         <item itemvalue="Application.ReverseLinkList" />
         <item itemvalue="Application.MyCircleQueue" />
         <item itemvalue="Application.test (1)" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.MyLinkedList" />
       </list>
     </recent_temporary>
   </component>
@@ -323,7 +343,7 @@
       <workItem from="1542262362634" duration="7520000" />
       <workItem from="1542363476587" duration="1596000" />
       <workItem from="1542366182881" duration="51593000" />
-      <workItem from="1542618014334" duration="19891000" />
+      <workItem from="1542618014334" duration="26219000" />
     </task>
     <task id="LOCAL-00001" summary="bag——完成度[90%]">
       <created>1542117448746</created>
@@ -465,11 +485,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542695060031</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="完成1.3.30——完成递归算法">
+      <created>1542776499707</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1542776499715</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86924000" />
+    <option name="totallyTimeSpent" value="93252000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -485,7 +512,7 @@
       <window_info anchor="bottom" id="Style Checker" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39975095" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39975095" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50435865" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -499,7 +526,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="1024 Tools" order="4" />
+      <window_info anchor="right" id="1024 Tools" order="4" weight="0.5437018" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -531,7 +558,8 @@
     <MESSAGE value="完成1.3.30——反转链表代码不好看  ， 只完成初代版本" />
     <MESSAGE value="完成1.3.30——反转链表代码不好看  ， 完成次代产品" />
     <MESSAGE value="完成1.3.30——准备递归算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成1.3.30——准备递归算法" />
+    <MESSAGE value="完成1.3.30——完成递归算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成1.3.30——完成递归算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -547,6 +575,18 @@
           <line>162</line>
           <properties />
           <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/E31/DoubleLinkedList.java</url>
+          <line>136</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/E31/DoubleLinkedList.java</url>
+          <line>150</line>
+          <properties />
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -792,14 +832,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/E30/ReverseLinkList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="128" selection-start-line="128" selection-end-line="128" />
+        <state relative-caret-position="3860">
+          <caret line="164" selection-start-line="164" selection-end-line="164" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#182#183#0" expanded="true" />
             <element signature="e#209#210#0" expanded="true" />
             <element signature="e#372#373#0" expanded="true" />
             <element signature="e#408#409#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/E31/DoubleLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="148" column="26" selection-start-line="148" selection-start-column="26" selection-end-line="148" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#271#272#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
           </folding>
         </state>
       </provider>
