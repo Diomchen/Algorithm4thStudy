@@ -63,7 +63,7 @@ public class UF {
                 lTemp.addLast(id[i]);
                 for(int j = i+1 ; j<id.length ; j++){
                     if(id[i] == id[j]){
-                        strb.append("-->"+j);
+                        strb.append("--"+j);
                     }
                 }
                 System.out.println(strb.toString());

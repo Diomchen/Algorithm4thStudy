@@ -115,17 +115,33 @@ public class ReverseLinkList<E> {
         return reverse;
     }
 
-    //递归算法
-    public Node ReverseLLRecursion1(){
+    //递归算法(自己写的)
+    public Node ReverseLLRecursion1(Node x){
+        Node first = x;
+        if(first == null){
+            return reverse;
+        }
 
-
-
-
+        Node second = first.next;
+        first.next = reverse;
+        reverse = first;
+        first = second;
+        return ReverseLLRecursion1(first);
 
     }
 
+    public Node ReverseLLRecursion2(Node first){
+        if(first == null)return null;
+        if(first.next == null)return first;
+        Node second = first.next;
+        Node rest = ReverseLLRecursion2(second);
+        second.next = first;
+        first.next = null;
+        return rest;
+    }
+
     public void stdOutReverse(){
-        Node f = ReverseLL1(first);
+        Node f = ReverseLLRecursion1(first);
         while(f!=null){
             System.out.println(f.e);
             f = f.next;
