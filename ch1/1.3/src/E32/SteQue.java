@@ -12,11 +12,12 @@ import java.util.Iterator;
  */
 
 /**
+ * ----------------------API
  *  public class SteQue <E> implements Iterable<E>
  * -----------------------------------------------------
- *                       SteQue()       创建SteQue
+ *                       SteQue()          创建SteQue
  *              void     push(E e)         从头部插入
- *              E        pop()          从头部删除
+ *              E        pop()             从头部删除
  *              void     enqueue(E e)      从尾部插入
  * -----------------------------------------------------
  */
