@@ -1,5 +1,9 @@
 package E35;
 
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
+
+import java.util.Iterator;
 import java.util.Random;
 
 /**
@@ -8,7 +12,7 @@ import java.util.Random;
  * @Author: DiomChen
  * @Date: 2018/11/22 19:59
  */
-public class RandomQueue<E> {
+public class RandomQueue<E> implements Iterable<E>{
     private int N;
     E [] Arr ;
 
@@ -53,6 +57,27 @@ public class RandomQueue<E> {
         Arr = temp;
     }
 
+    @Override
+    public Iterator<E> iterator() {
+        return new Iter();
+    }
+
+    private class Iter implements Iterator<E>{
+
+        private int i = N;
+        private int index = 0;
+
+        @Override
+        public boolean hasNext() {
+            return index<i;
+        }
+
+        @Override
+        public E next() {
+            return Arr[index++];
+        }
+    }
+
     public static void main(String[] args) {
         RandomQueue<Integer> rq = new RandomQueue(10);
         rq.enqueue(2);
@@ -63,14 +88,18 @@ public class RandomQueue<E> {
         rq.enqueue(6);
         rq.enqueue(8);
         rq.enqueue(9);
-        System.out.println(rq.dequeue());
-        System.out.println(rq.dequeue());
-        System.out.println(rq.dequeue());
-        System.out.println(rq.dequeue());
 
-        System.out.println(rq.dequeue());
-        System.out.println(rq.dequeue());
-        System.out.println(rq.dequeue());
+        for(Integer x:rq){
+            StdOut.println(x);
+        }
+//        System.out.println(rq.dequeue());
+//        System.out.println(rq.dequeue());
+//        System.out.println(rq.dequeue());
+//        System.out.println(rq.dequeue());
+//
+//        System.out.println(rq.dequeue());
+//        System.out.println(rq.dequeue());
+//        System.out.println(rq.dequeue());
 
     }
 }

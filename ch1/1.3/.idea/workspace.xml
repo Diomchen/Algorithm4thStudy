@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388735e5-5b06-45f7-a045-574698866dd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/E35/RandomQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/E35/RandomQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E35/RandomQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../1.5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.5/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -47,14 +47,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="17716" />
-          <entry key="txt" value="315" />
+          <entry key="java" value="17798" />
+          <entry key="txt" value="320" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="17716" />
-          <entry key="PLAIN_TEXT" value="317" />
+          <entry key="JAVA" value="17798" />
+          <entry key="PLAIN_TEXT" value="322" />
         </counts>
       </usages-collector>
     </session>
@@ -64,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/E34/RandomBag.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="33" selection-start-line="33" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="556">
+              <caret line="68" column="5" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="68" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
@@ -86,15 +86,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/E35/RandomQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="73" selection-start-line="73" selection-end-line="73" />
+            <state relative-caret-position="556">
+              <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#215#216#0" expanded="true" />
                 <element signature="e#257#258#0" expanded="true" />
                 <element signature="e#287#288#0" expanded="true" />
                 <element signature="e#315#316#0" expanded="true" />
                 <element signature="e#339#340#0" expanded="true" />
                 <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#1080#1081#0" expanded="true" />
+                <element signature="e#1113#1114#0" expanded="true" />
+                <element signature="e#1310#1311#0" expanded="true" />
+                <element signature="e#1344#1345#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -201,7 +206,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542888974497" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542889585349" />
     <property name="last_opened_file_path" value="D:/浏览器下载目录/ActiveVisualiser-master/ActiveVisualiser-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -322,7 +327,7 @@
       <workItem from="1542262362634" duration="7520000" />
       <workItem from="1542363476587" duration="1596000" />
       <workItem from="1542366182881" duration="51593000" />
-      <workItem from="1542618014334" duration="42987000" />
+      <workItem from="1542618014334" duration="43453000" />
     </task>
     <task id="LOCAL-00001" summary="bag——完成度[90%]">
       <created>1542117448746</created>
@@ -492,11 +497,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542887846567</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="完成1.3.32——完成RandomQueue">
+      <created>1542889007946</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1542889007946</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110020000" />
+    <option name="totallyTimeSpent" value="110486000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -512,7 +524,7 @@
       <window_info anchor="bottom" id="Style Checker" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.8667497" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49066" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.50435865" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -562,7 +574,8 @@
     <MESSAGE value="完成1.3.31——完成DoubleLinkedList" />
     <MESSAGE value="完成1.3.32——完成SteQue" />
     <MESSAGE value="完成1.3.32——完成RandomBag" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成1.3.32——完成RandomBag" />
+    <MESSAGE value="完成1.3.32——完成RandomQueue" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成1.3.32——完成RandomQueue" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -919,8 +932,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/E34/RandomBag.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="33" selection-start-line="33" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="556">
+          <caret line="68" column="5" lean-forward="true" selection-start-line="41" selection-start-column="3" selection-end-line="68" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#257#258#0" expanded="true" />
@@ -939,15 +952,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/E35/RandomQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        <state relative-caret-position="556">
+          <caret line="95" column="29" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="29" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#215#216#0" expanded="true" />
             <element signature="e#257#258#0" expanded="true" />
             <element signature="e#287#288#0" expanded="true" />
             <element signature="e#315#316#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
             <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#1080#1081#0" expanded="true" />
+            <element signature="e#1113#1114#0" expanded="true" />
+            <element signature="e#1310#1311#0" expanded="true" />
+            <element signature="e#1344#1345#0" expanded="true" />
           </folding>
         </state>
       </provider>
