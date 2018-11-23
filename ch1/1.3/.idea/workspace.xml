@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388735e5-5b06-45f7-a045-574698866dd0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/E39/RingBuffer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/E38/GeneralizedQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E38/GeneralizedQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../1.5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.5/.idea/workspace.xml" afterDir="false" />
@@ -34,13 +35,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="38" />
+          <entry key="java" value="39" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="38" />
+          <entry key="JAVA" value="39" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
@@ -48,24 +49,33 @@
         <counts>
           <entry key="dummy" value="2" />
           <entry key="java" value="19251" />
-          <entry key="txt" value="380" />
+          <entry key="txt" value="394" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="19251" />
-          <entry key="PLAIN_TEXT" value="382" />
+          <entry key="PLAIN_TEXT" value="396" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/E38/GeneralizedQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+            <state relative-caret-position="204">
+              <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/E39/RingBuffer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -73,7 +83,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/E31/DoubleLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
+            <state relative-caret-position="1020">
               <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -82,7 +92,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/E32/SteQue.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="318">
@@ -195,12 +205,6 @@
               <item name="1.3" type="b2602c69:ProjectViewProjectNode" />
               <item name="1.3" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="E31" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1.3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1.3" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="E32" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -214,7 +218,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542974290535" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542974374102" />
     <property name="last_opened_file_path" value="D:/浏览器下载目录/ActiveVisualiser-master/ActiveVisualiser-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -335,7 +339,7 @@
       <workItem from="1542262362634" duration="7520000" />
       <workItem from="1542363476587" duration="1596000" />
       <workItem from="1542366182881" duration="51593000" />
-      <workItem from="1542618014334" duration="51109000" />
+      <workItem from="1542618014334" duration="51456000" />
     </task>
     <task id="LOCAL-00001" summary="bag——完成度[90%]">
       <created>1542117448746</created>
@@ -526,17 +530,24 @@
       <option name="project" value="LOCAL" />
       <updated>1542892266913</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="完成1.3.38——完成GeneralizedQueue——[100%]">
+      <created>1542974321429</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1542974321429</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118142000" />
+    <option name="totallyTimeSpent" value="118489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17994858" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17994858" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -599,7 +610,8 @@
     <MESSAGE value="完成1.3.32——完成RandomQueue" />
     <MESSAGE value="完成1.3.36——完成RandomQueue的迭代器的编写" />
     <MESSAGE value="完成1.3.38——未完成37，开始GeneralizedQueue——[0%]" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成1.3.38——未完成37，开始GeneralizedQueue——[0%]" />
+    <MESSAGE value="完成1.3.38——完成GeneralizedQueue——[100%]" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成1.3.38——完成GeneralizedQueue——[100%]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -615,12 +627,6 @@
           <line>162</line>
           <properties />
           <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/E38/GeneralizedQueue.java</url>
-          <line>97</line>
-          <properties />
-          <option name="timeStamp" value="37" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -974,19 +980,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/E32/SteQue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/E31/DoubleLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
+        <state relative-caret-position="1020">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -994,10 +990,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/E39/RingBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/E38/GeneralizedQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="76" column="20" selection-start-line="76" selection-start-column="20" selection-end-line="76" selection-end-column="20" />
+        <state relative-caret-position="204">
+          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/E32/SteQue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="41" column="9" lean-forward="true" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

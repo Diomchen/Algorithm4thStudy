@@ -110,7 +110,6 @@ public class GeneralizedQueue<E> {
         StdOut.println(gq.delete(3));
         StdOut.println(gq.delete(4));
         StdOut.println(gq.delete(5));
-
     }
 
 }
