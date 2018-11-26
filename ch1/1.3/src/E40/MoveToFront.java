@@ -123,7 +123,7 @@ public class MoveToFront {
     public static void main(String[] args) {
         MoveToFront m2f = new MoveToFront();
 
-        m2f.operatorStr("abdda");
+        m2f.operatorStr("abcdbadc");
 
     }
 }
