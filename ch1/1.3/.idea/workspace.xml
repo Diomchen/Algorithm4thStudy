@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388735e5-5b06-45f7-a045-574698866dd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/E43/FileList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1.5/src/QuickUnion/QU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../1.5/src/WeightedQuickUnion/weightedQuickUnionUF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.5/src/PathCompressQuickUnion/PCQU.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../1.5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.5/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.5/src/UnionFind/UF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.5/src/UnionFind/UF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.5/src/QuickUnion/QU.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.5/src/QuickUnion/QU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.5/src/WeightedQuickUnion/weightedQuickUnionUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.5/src/WeightedQuickUnion/weightedQuickUnionUF.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -198,10 +197,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-331" />
-    <option name="y" value="-17" />
-    <option name="width" value="1936" />
-    <option name="height" value="920" />
+    <option name="x" value="106" />
+    <option name="y" value="23" />
+    <option name="width" value="938" />
+    <option name="height" value="765" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -266,7 +265,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543401873986" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543413157708" />
     <property name="last_opened_file_path" value="D:/浏览器下载目录/ActiveVisualiser-master/ActiveVisualiser-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />

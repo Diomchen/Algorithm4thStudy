@@ -1,5 +1,9 @@
 package QuickUnion;
 
+import edu.princeton.cs.algs4.StdOut;
+
+import java.util.Scanner;
+
 /**
  * @ClassName: QU
  * @Description: QuickUnion
@@ -41,6 +45,28 @@ public class QU {
         }
         id[pRoot] = qRoot;//将pRoot的根节点修改为qRoot的根节点，从而实现两树合并
         count--;
+    }
+
+    public static void main(String[] args) {
+        Scanner in  = new Scanner(System.in);
+        System.out.println("Please input N :");
+        int N  = in.nextInt();
+        QU uf = new QU(N);
+        int p = 0;
+        int q = 0;
+        while(true){
+            System.out.println("Please input 'p' and 'q' : ");
+            p = in.nextInt();
+            if(p == 99999){
+                break;
+            }
+            q = in.nextInt();
+            if(!uf.connected(p,q)){
+                uf.union(p,q);
+            }
+        }
+//        uf.consoleConnect(N);
+        StdOut.println("----------------\n"+ uf.count()+" components ");
     }
 
 }

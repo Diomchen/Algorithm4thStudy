@@ -1,4 +1,4 @@
-package WeightedQuickUnion;
+package PathCompressQuickUnion;
 
 import edu.princeton.cs.algs4.StdOut;
 
@@ -6,17 +6,17 @@ import java.util.LinkedList;
 import java.util.Scanner;
 
 /**
- * @ClassName: weightedQuickUnionUF
- * @Description: Union Find中的加权quick-union方法
+ * @ClassName: PCQU
+ * @Description: 在find中添加一行寻找共同根节点的代码，使得速度无限趋近于1
  * @Author: DiomChen
- * @Date: 2018/11/28 18:42
+ * @Date: 2018/11/28 21:15
  */
-public class weightedQuickUnionUF {
+public class PCQU {
     private int [] id;
     private int count;
     private int[] sz;
 
-    public weightedQuickUnionUF(int N){
+    public PCQU(int N){
         id = new int[N];
         sz = new int[N];
         count = N;
@@ -36,6 +36,7 @@ public class weightedQuickUnionUF {
 
     public int find(int x){
         while(x!=id[x]){
+            id[x] = id[id[x]];//<<<<<<<<<----------------------这就是路径压缩quick-find
             x = id[x];
         }
         return x;
@@ -81,7 +82,7 @@ public class weightedQuickUnionUF {
         Scanner in  = new Scanner(System.in);
         System.out.println("Please input N :");
         int N  = in.nextInt();
-        weightedQuickUnionUF uf = new weightedQuickUnionUF(N);
+        PCQU uf = new PCQU(N);
         int p = 0;
         int q = 0;
         while(true){

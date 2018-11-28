@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d398fb12-ddf7-4619-9521-6f2d7d8e4b08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../1.3/src/E43/FileList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/QuickUnion/QU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WeightedQuickUnion/weightedQuickUnionUF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PathCompressQuickUnion/PCQU.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnionFind/UF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnionFind/UF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/QuickUnion/QU.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/QuickUnion/QU.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WeightedQuickUnion/weightedQuickUnionUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeightedQuickUnion/weightedQuickUnionUF.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,25 +25,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="4" />
+          <entry key="java" value="6" />
+          <entry key="kt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="4" />
+          <entry key="JAVA" value="6" />
+          <entry key="Kotlin" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="ft" value="131" />
-          <entry key="java" value="2997" />
-          <entry key="txt" value="62" />
+          <entry key="java" value="3143" />
+          <entry key="txt" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2997" />
-          <entry key="PLAIN_TEXT" value="62" />
+          <entry key="JAVA" value="3143" />
+          <entry key="PLAIN_TEXT" value="91" />
           <entry key="VTL" value="131" />
         </counts>
       </usages-collector>
@@ -55,7 +56,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UnionFind/UF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="-68">
               <caret line="73" selection-start-line="73" selection-end-line="93" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -73,9 +74,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/QuickUnion/QU.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="828">
+              <caret line="68" selection-start-line="68" selection-end-line="68" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#374#375#0" expanded="true" />
                 <element signature="e#415#416#0" expanded="true" />
                 <element signature="e#440#441#0" expanded="true" />
@@ -85,11 +87,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/WeightedQuickUnion/weightedQuickUnionUF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+            <state relative-caret-position="476">
+              <caret line="14" selection-start-line="14" selection-end-line="99" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#508#509#0" expanded="true" />
@@ -101,14 +103,36 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/PathCompressQuickUnion/PCQU.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="556">
+              <caret line="102" selection-start-line="102" selection-end-line="102" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#479#480#0" expanded="true" />
+                <element signature="e#507#508#0" expanded="true" />
+                <element signature="e#551#552#0" expanded="true" />
+                <element signature="e#592#593#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin File" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>UF</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -120,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/UnionFind/UF.java" />
         <option value="$PROJECT_DIR$/src/QuickUnion/QU.java" />
         <option value="$PROJECT_DIR$/src/WeightedQuickUnion/weightedQuickUnionUF.java" />
+        <option value="$PROJECT_DIR$/src/PathCompressQuickUnion/PCQU.java" />
       </list>
     </option>
   </component>
@@ -130,10 +155,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-331" />
-    <option name="y" value="-17" />
-    <option name="width" value="1936" />
-    <option name="height" value="920" />
+    <option name="x" value="106" />
+    <option name="y" value="23" />
+    <option name="width" value="938" />
+    <option name="height" value="765" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -171,6 +196,24 @@
               <item name="1.5" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="1.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1.5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="QuickUnion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1.5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="UnionFind" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1.5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1.5" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="WeightedQuickUnion" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -180,7 +223,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543403384759" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543413157783" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/pic/percolation" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -202,7 +246,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.weightedQuickUnionUF">
+  <component name="RunManager" selected="Application.QU">
+    <configuration name="QU" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickUnion.QU" />
+      <module name="1.5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="QuickUnion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UF" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="UnionFind.UF" />
       <module name="1.5" />
@@ -246,9 +303,11 @@
       <item itemvalue="Application.UF" />
       <item itemvalue="Application.quickFind" />
       <item itemvalue="Application.weightedQuickUnionUF" />
+      <item itemvalue="Application.QU" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QU" />
         <item itemvalue="Application.weightedQuickUnionUF" />
         <item itemvalue="Application.quickFind" />
         <item itemvalue="Application.UF" />
@@ -265,7 +324,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542719275613</updated>
-      <workItem from="1542719280530" duration="17124000" />
+      <workItem from="1542719280530" duration="22099000" />
     </task>
     <task id="LOCAL-00001" summary="完成Union_find（quick-union）————50%">
       <created>1542721246914</created>
@@ -281,11 +340,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542764412137</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成Union_find（quick-union）修改原始理解错误，且完成之加权quick-find">
+      <created>1543403735145</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543403735145</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17124000" />
+    <option name="totallyTimeSpent" value="22099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
@@ -296,7 +362,7 @@
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
       <window_info id="Capture Tool" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17544988" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17544988" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Style Checker" />
       <window_info anchor="bottom" id="Terminal" />
@@ -306,7 +372,7 @@
       <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.6650062" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.8468244" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39975095" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -332,7 +398,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="完成Union_find（quick-union）————50%" />
     <MESSAGE value="完成Union_find（quick-union）————100%" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成Union_find（quick-union）————100%" />
+    <MESSAGE value="完成Union_find（quick-union）修改原始理解错误，且完成之加权quick-find" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成Union_find（quick-union）修改原始理解错误，且完成之加权quick-find" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -348,6 +415,18 @@
           <line>94</line>
           <properties />
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/QuickUnion/QU.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/QuickUnion/QU.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -368,22 +447,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/QuickUnion/QU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
-          <folding>
-            <element signature="e#374#375#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/UnionFind/UF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="-68">
           <caret line="73" selection-start-line="73" selection-end-line="93" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -397,16 +463,61 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$PROJECT_DIR$/src/lib/algs4.jar!/edu/princeton/cs/algs4/StdOut.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+          <folding>
+            <element signature="e#3748#3749#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/QuickUnion/QU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="68" selection-start-line="68" selection-end-line="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#468#469#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PathCompressQuickUnion/PCQU.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/WeightedQuickUnion/weightedQuickUnionUF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="96" column="9" lean-forward="true" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+        <state relative-caret-position="476">
+          <caret line="14" selection-start-line="14" selection-end-line="99" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#508#509#0" expanded="true" />
             <element signature="e#536#537#0" expanded="true" />
             <element signature="e#572#573#0" expanded="true" />
             <element signature="e#608#609#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PathCompressQuickUnion/PCQU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="556">
+          <caret line="102" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#479#480#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#592#593#0" expanded="true" />
           </folding>
         </state>
       </provider>
