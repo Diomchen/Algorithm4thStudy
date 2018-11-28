@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="388735e5-5b06-45f7-a045-574698866dd0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/E42/CopyStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/E43/FileList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.5/src/QuickUnion/QU.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.5/src/WeightedQuickUnion/weightedQuickUnionUF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/E40/MoveToFront.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/E40/MoveToFront.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../1.5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.5/src/UnionFind/UF.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.5/src/UnionFind/UF.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,28 +38,28 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="54" />
+          <entry key="java" value="55" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="54" />
+          <entry key="JAVA" value="55" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="22962" />
-          <entry key="txt" value="512" />
+          <entry key="java" value="23853" />
+          <entry key="txt" value="537" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="22962" />
-          <entry key="PLAIN_TEXT" value="514" />
+          <entry key="JAVA" value="23853" />
+          <entry key="PLAIN_TEXT" value="539" />
         </counts>
       </usages-collector>
     </session>
@@ -104,17 +106,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/E42/CopyStack.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+            <state relative-caret-position="-22">
+              <caret line="75" column="38" lean-forward="true" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#629#630#0" expanded="true" />
                 <element signature="e#646#647#0" expanded="true" />
                 <element signature="e#702#703#0" expanded="true" />
                 <element signature="e#719#720#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/E43/FileList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,6 +187,7 @@
         <option value="$PROJECT_DIR$/src/Test/E40.java" />
         <option value="$PROJECT_DIR$/src/E40/MoveToFront.java" />
         <option value="$PROJECT_DIR$/src/E42/CopyStack.java" />
+        <option value="$PROJECT_DIR$/src/E43/FileList.java" />
       </list>
     </option>
   </component>
@@ -182,9 +197,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-304" />
-    <option name="y" value="-21" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-331" />
+    <option name="y" value="-17" />
     <option name="width" value="1936" />
     <option name="height" value="920" />
   </component>
@@ -234,6 +249,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="E42" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="1.3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1.3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="E43" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -245,11 +266,11 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543237887220" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543401873986" />
     <property name="last_opened_file_path" value="D:/浏览器下载目录/ActiveVisualiser-master/ActiveVisualiser-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -268,7 +289,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CopyStack">
+  <component name="RunManager" selected="Application.FileList">
     <configuration name="CopyQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E41.CopyQueue" />
       <module name="1.3" />
@@ -308,6 +329,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="E43.FileList" />
+      <module name="1.3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="E43.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MoveToFront" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="E40.MoveToFront" />
       <module name="1.3" />
@@ -321,33 +355,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RingBuffer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="E39.RingBuffer" />
-      <module name="1.3" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="E39.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.RingBuffer" />
       <item itemvalue="Application.MoveToFront" />
       <item itemvalue="Application.CopyQueue" />
       <item itemvalue="Application.E40" />
       <item itemvalue="Application.CopyStack" />
+      <item itemvalue="Application.FileList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FileList" />
         <item itemvalue="Application.CopyStack" />
         <item itemvalue="Application.MoveToFront" />
         <item itemvalue="Application.E40" />
         <item itemvalue="Application.CopyQueue" />
-        <item itemvalue="Application.RingBuffer" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +387,7 @@
       <workItem from="1542262362634" duration="7520000" />
       <workItem from="1542363476587" duration="1596000" />
       <workItem from="1542366182881" duration="51593000" />
-      <workItem from="1542618014334" duration="69249000" />
+      <workItem from="1542618014334" duration="76878000" />
     </task>
     <task id="LOCAL-00001" summary="bag——完成度[90%]">
       <created>1542117448746</created>
@@ -599,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543230138370</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="完成1.3.42——完成复制栈，但是自己写的迭代器好像不起作用QAQ">
+      <created>1543238149382</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1543238149382</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136282000" />
+    <option name="totallyTimeSpent" value="143911000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -615,9 +643,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17994858" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20437019" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -627,7 +656,7 @@
       <window_info anchor="bottom" id="Style Checker" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.59153175" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.743462" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.6276463" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -657,7 +686,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成1.3.5" />
     <MESSAGE value="完成1.3.10后序表达式" />
     <MESSAGE value="完成1.3.11后序表达式的计算" />
     <MESSAGE value="完成1.3.12——copy函数" />
@@ -682,7 +710,8 @@
     <MESSAGE value="完成1.3.39——完成MoveToFront，remove出现bug——[80%]" />
     <MESSAGE value="完成1.3.40——完成MoveToFront——[100%]" />
     <MESSAGE value="完成1.3.41——完成复制队列" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成1.3.41——完成复制队列" />
+    <MESSAGE value="完成1.3.42——完成复制栈，但是自己写的迭代器好像不起作用QAQ" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成1.3.42——完成复制栈，但是自己写的迭代器好像不起作用QAQ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1150,14 +1179,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/E42/CopyStack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+        <state relative-caret-position="-22">
+          <caret line="75" column="38" lean-forward="true" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#629#630#0" expanded="true" />
             <element signature="e#646#647#0" expanded="true" />
             <element signature="e#702#703#0" expanded="true" />
             <element signature="e#719#720#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/E43/FileList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="41" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,56 +1,62 @@
-package UnionFind;
+package WeightedQuickUnion;
 
 import edu.princeton.cs.algs4.StdOut;
 
-import java.sql.SQLOutput;
 import java.util.LinkedList;
 import java.util.Scanner;
-import java.util.Stack;
 
-/*
-* Author    :   DiomChen
-* Data      :   2018-11-20
-* Func      :   Union-find
-* Detail    :   利用quick_find实现union-find函数
-*
-* */
-public class UF {
-    private int []id;
+/**
+ * @ClassName: weightedQuickUnionUF
+ * @Description: Union Find中的加权quick-union方法
+ * @Author: DiomChen
+ * @Date: 2018/11/28 18:42
+ */
+public class weightedQuickUnionUF {
+    private int [] id;
     private int count;
-    public UF(int N){
+    private int[] sz;
+
+    public weightedQuickUnionUF(int N){
         id = new int[N];
+        sz = new int[N];
+        count = N;
         for(int i=0 ; i<N ; i++){
             id[i] = i;
+            sz[i] = 1;
         }
-        count = N;
     }
 
     public int count(){
         return count;
     }
 
-    public boolean connected(int p,int q){
-        return find(p) == find(q);
+    public boolean connected(int q,int p){
+        return find(q) == find(p);
     }
 
-    public void union(int p,int q){
-        int pId = id[p];
-        int qId = id[q];
+    public int find(int x){
+        while(x!=id[x]){
+            x = id[x];
+        }
+        return x;
+    }
 
-        if(pId == qId){
+    public void union(int q,int p){
+        int qRoot = id[q];
+        int pRoot = id[p];
+        if (qRoot == pRoot){
             return ;
         }
 
-        for(int i=0 ; i<id.length ; i++){
-            if(id[i] == pId)
-                id[i] = qId;
+        if(sz[qRoot] < sz[pRoot]){
+            id[qRoot] = pRoot;
+            sz[qRoot]+=sz[pRoot];
         }
-
-        count--;
-    }
-
-    public int find(int p){
-        return id[p];
+        else{
+            id[pRoot] = qRoot;
+            sz[pRoot]+=sz[qRoot];
+        }
+        count-- ;
     }
 
     public void consoleConnect(int N){
@@ -75,21 +81,21 @@ public class UF {
         Scanner in  = new Scanner(System.in);
         System.out.println("Please input N :");
         int N  = in.nextInt();
-        UF uf = new UF(N);
+        weightedQuickUnionUF uf = new weightedQuickUnionUF(N);
         int p = 0;
         int q = 0;
         while(true){
             System.out.println("Please input 'p' and 'q' : ");
             p = in.nextInt();
             if(p == 99999){
-                  break;
+                break;
             }
             q = in.nextInt();
             if(!uf.connected(p,q)){
                 uf.union(p,q);
             }
         }
-        uf.consoleConnect(N);
+//        uf.consoleConnect(N);
         StdOut.println("----------------\n"+uf.count()+" components ");
     }
 }
