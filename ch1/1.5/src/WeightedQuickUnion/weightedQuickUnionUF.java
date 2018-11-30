@@ -1,5 +1,6 @@
 package WeightedQuickUnion;
 
+import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
 import java.util.LinkedList;
@@ -77,25 +78,38 @@ public class weightedQuickUnionUF {
         }
     }
 
+//    public static void main(String[] args) {
+//        Scanner in  = new Scanner(System.in);
+//        System.out.println("Please input N :");
+//        int N  = in.nextInt();
+//        weightedQuickUnionUF uf = new weightedQuickUnionUF(N);
+//        int p = 0;
+//        int q = 0;
+//        while(true){
+//            System.out.println("Please input 'p' and 'q' : ");
+//            p = in.nextInt();
+//            if(p == 99999){
+//                break;
+//            }
+//            q = in.nextInt();
+//            if(!uf.connected(p,q)){
+//                uf.union(p,q);
+//            }
+//        }
+////        uf.consoleConnect(N);
+//        StdOut.println("----------------\n"+uf.count()+" components ");
+//    }
+
     public static void main(String[] args) {
-        Scanner in  = new Scanner(System.in);
-        System.out.println("Please input N :");
-        int N  = in.nextInt();
-        weightedQuickUnionUF uf = new weightedQuickUnionUF(N);
-        int p = 0;
-        int q = 0;
-        while(true){
-            System.out.println("Please input 'p' and 'q' : ");
-            p = in.nextInt();
-            if(p == 99999){
-                break;
-            }
-            q = in.nextInt();
-            if(!uf.connected(p,q)){
-                uf.union(p,q);
-            }
+        int n = StdIn.readInt();
+        weightedQuickUnionUF uf = new weightedQuickUnionUF(n);
+        while (!StdIn.isEmpty()) {
+            int p = StdIn.readInt();
+            int q = StdIn.readInt();
+            if (uf.connected(p, q)) continue;
+            uf.union(p, q);
+            StdOut.println(p + " " + q);
         }
-//        uf.consoleConnect(N);
-        StdOut.println("----------------\n"+uf.count()+" components ");
+        StdOut.println(uf.count() + " components");
     }
 }
