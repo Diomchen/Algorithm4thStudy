@@ -1,4 +1,4 @@
-package insertSort;
+package ShellSort;
 
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
@@ -7,32 +7,27 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 /**
- * @ClassName: Insertion
- * @Description: InsertSort
+ * @ClassName: Shell
+ * @Description: TODO
  * @Author: DiomChen
- * @Date: 2018/12/2 16:19
+ * @Date: 2018/12/3 17:11
  */
-public class Insertion {
-
+public class Shell {
     public static void sort(Comparable[] a){
-    //====================自己写的
-    //        int N = a.length;
-    //        for(int i=1 ; i<N ; i++){
-    //            int j=i-1;
-    //            Comparable min = a[i];
-    //            while(j>=0 && less(min,a[j])){
-    //                exch(a,j+1,j);
-    //                j--;
-    //            }
-    //            a[j+1] = min;
-    //        }
-
-    // ===================书上的
         int N = a.length;
-        for(int i=1 ; i<N ; i++){
-            for(int j=i ; j>0 && less(a[j],a[j-1]) ; j--){
-                exch(a,j,j-1);
+        int h = 1;
+
+        while(h < N/3){
+            h = 3*h + 1;
+        }
+
+        while(h>=1){
+            for(int i=h ; i<N ; i++){
+                for(int j=i ; j>=h && less(a[j],a[j-h]) ; j-=h){
+                    exch(a,j,j-h);
+                }
             }
+            h = h/3;
         }
     }
 
@@ -61,15 +56,13 @@ public class Insertion {
     }
 
     public static void main(String[] args) throws FileNotFoundException {
+
         FileInputStream fis = new FileInputStream(args[0]);
         System.setIn(fis);
-
         String[] a = StdIn.readStrings();
 
         sort(a);
         assert isSorted(a);
         show(a);
-
-
     }
 }
