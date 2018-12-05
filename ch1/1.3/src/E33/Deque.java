@@ -63,4 +63,21 @@ public class Deque<E> extends DoubleLinkedList<E> implements Iterable<E> {
             return null;
         }
     }
+
+    public static void main(String[] args) {
+        Deque<Integer> d = new Deque();
+        d.addFirst(1);
+        d.addFirst(2);
+        d.addFirst(3);
+        d.addLast(4);
+        d.addLast(5);
+        d.addLast(6);
+
+        d.removeFirst();
+        d.removeLast();
+
+
+
+    }
+
 }

@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d398fb12-ddf7-4619-9521-6f2d7d8e4b08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../1.3/src/E44/Buffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.3/src/E45/ThePossibilityOfStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.3/src/E47/Decori" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../1.3/src/E48/DoubleListToStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1.3/src/E33/Deque.java" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/src/E33/Deque.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch2/2.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch2/2.1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../ch2/2.1/src/SortCompare/SC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch2/2.1/src/SortCompare/SC.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -86,7 +88,7 @@
         <entry file="file://$PROJECT_DIR$/src/QuickUnion/QU.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="658">
-              <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+              <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -154,7 +156,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1616" />
@@ -376,7 +378,7 @@
     <option name="totallyTimeSpent" value="35971000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15359898" />
@@ -501,7 +503,7 @@
     <entry file="file://$PROJECT_DIR$/src/QuickUnion/QU.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="658">
-          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+          <caret line="60" column="22" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
