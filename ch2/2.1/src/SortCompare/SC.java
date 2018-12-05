@@ -59,10 +59,9 @@ public class SC {
         String alg2 = "Shell";
         int N = Integer.parseInt("1000");
         int T = Integer.parseInt("100");
-        double t1 = timerRandomInput(alg1,N,T);
-        double t2 = timerRandomInput(alg2,N,T);
-        StdOut.println("N: "+ N+ " alg1: "+alg1 + " alg2: "+alg2);
-        StdOut.printf("times: %.1f alg1Time: %.8f alg2Time: %.8f",t2/t1,t1,t2);
+        double t1 = timerRandomInput(alg1, N, T);
+        double t2 = timerRandomInput(alg2, N, T);
+        StdOut.println("N: " + N + " alg1: " + alg1 + " alg2: " + alg2);
+        StdOut.printf("times: %.1f alg1Time: %.8f alg2Time: %.8f", t2 / t1, t1, t2);
     }
-
 }
