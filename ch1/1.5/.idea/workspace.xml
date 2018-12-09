@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d398fb12-ddf7-4619-9521-6f2d7d8e4b08" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/E12/PCQU.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E17/ErdosRenyi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/E18/RandomGrid.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1.3/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WeightedQuickUnion/weightedQuickUnionUF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WeightedQuickUnion/weightedQuickUnionUF.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../ch2/2.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch2/2.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../ch2/2.1/src/SelectionSort/Selection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ch2/2.1/src/SelectionSort/Selection.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,13 +55,13 @@
         <counts>
           <entry key="ft" value="131" />
           <entry key="java" value="5205" />
-          <entry key="txt" value="125" />
+          <entry key="txt" value="156" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="5205" />
-          <entry key="PLAIN_TEXT" value="125" />
+          <entry key="PLAIN_TEXT" value="156" />
           <entry key="VTL" value="131" />
         </counts>
       </usages-collector>
@@ -384,7 +380,7 @@
       <workItem from="1543574712292" duration="893000" />
       <workItem from="1543580934718" duration="1719000" />
       <workItem from="1543669644819" duration="26863000" />
-      <workItem from="1544357371387" duration="256000" />
+      <workItem from="1544357371387" duration="1212000" />
     </task>
     <task id="LOCAL-00001" summary="完成Union_find（quick-union）————50%">
       <created>1542721246914</created>
@@ -414,14 +410,21 @@
       <option name="project" value="LOCAL" />
       <updated>1543413201856</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完成1.5.17——没完成下面的题目，主要是题目不是读的很懂">
+      <created>1544357910873</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1544357910873</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60568000" />
+    <option name="totallyTimeSpent" value="61524000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="916" extended-state="7" />
+    <frame x="-8" y="-8" width="1616" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.155527" />
@@ -468,7 +471,8 @@
     <MESSAGE value="完成Union_find（quick-union）————100%" />
     <MESSAGE value="完成Union_find（quick-union）修改原始理解错误，且完成之加权quick-find" />
     <MESSAGE value="完成Union_find——PathCompressQuickFind——[100%]" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成Union_find——PathCompressQuickFind——[100%]" />
+    <MESSAGE value="完成1.5.17——没完成下面的题目，主要是题目不是读的很懂" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成1.5.17——没完成下面的题目，主要是题目不是读的很懂" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

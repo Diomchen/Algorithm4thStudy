@@ -1,8 +1,6 @@
 package SelectionSort;
 
-import edu.princeton.cs.algs4.In;
-import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.*;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -22,9 +20,64 @@ public class Selection {
                 if(less(a[j],a[min])){
                     min = j;
                 }
-                exch(a,i,min);
+            }
+
+            draw(a,i,min);
+            try {
+                Thread.currentThread();
+                Thread.sleep(200);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            clear();
+            exch(a,i,min);
+        }
+        successDraw(a);
+    }
+
+    public static void successDraw(Comparable[] a){
+        int N = a.length;
+        draw(a,N,N);
+        for(int i=0 ; i<a.length ; i++){
+            double x = 1.0*i/N;
+            double y = (double)a[i]/2.0;
+            double rw = 0.5/N;
+            double rh = (double)a[i]/2.0;
+            StdDraw.setPenColor(StdDraw.GREEN);
+            StdDraw.filledRectangle(x,y,rw,rh);
+            try {
+                Thread.currentThread();
+                Thread.sleep(20);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
         }
+    }
+
+    public static void draw(Comparable[] a, int i,int min){
+        int N = a.length;
+        for(int j=0 ; j<N ; j++){
+            double x = 1.0*j/N;
+            double y = (double)a[j]/2.0;
+            double rw = 0.5/N;
+            double rh = (double)a[j]/2.0;
+            if(j == min){
+                StdDraw.setPenColor(StdDraw.RED);
+                StdDraw.filledRectangle(x,y,rw,rh);
+            }
+            else if(j < i){
+                StdDraw.setPenColor(StdDraw.LIGHT_GRAY);
+                StdDraw.filledRectangle(x,y,rw,rh);
+            }
+            else {
+                StdDraw.setPenColor(StdDraw.BLACK);
+                StdDraw.filledRectangle(x,y,rw,rh);
+            }
+        }
+    }
+
+    public static void clear(){
+        StdDraw.clear();
     }
 
     private static boolean less(Comparable v,Comparable w){
@@ -53,12 +106,21 @@ public class Selection {
 
     public static void main(String[] args) throws FileNotFoundException {
 //        String [] a = {"A","D","C","B","Z","F","K","G","E"};
-        FileInputStream fis = new FileInputStream(args[0]);
-        System.setIn(fis);
-        String[] a = StdIn.readStrings();
+//        FileInputStream fis = new FileInputStream(args[0]);
+//        System.setIn(fis);
+//        String[] a = StdIn.readStrings();
+//
+//        sort(a);
+//        assert isSorted(a);
+//        show(a);
 
+        /*
+        下面是测试图像的用例
+        * */
+        int N=50;
+        Comparable[] a=new Comparable[N];
+        for(int i=0;i<N;i++)
+            a[i]= StdRandom.random();
         sort(a);
-        assert isSorted(a);
-        show(a);
     }
 }
