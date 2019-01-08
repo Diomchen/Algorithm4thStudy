@@ -45,4 +45,17 @@ public class Example {
         show(a);
     }
 
+    public static boolean Check(Comparable[] a){
+        Comparable[] b = new Comparable[a.length];
+        for(int i=0 ; i<a.length ; i++){
+            b[i] = a[i];
+        }
+        sort(a);
+        for(int i=0 ; i<a.length ; i++){
+            if(b[i] != a[i]){
+                return false;
+            }
+        }
+        return true;
+    }
 }
