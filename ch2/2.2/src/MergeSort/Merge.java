@@ -1,7 +1,9 @@
+package MergeSort;
+
 import edu.princeton.cs.algs4.StdOut;
 
 /**
- * @ClassName: Merge
+ * @ClassName: MergeSort.Merge
  * @Description: 归并排序时间与NlgN成正比
  * @Author: Shuhan Chen
  * @Date: 2019/01/19 22:10
