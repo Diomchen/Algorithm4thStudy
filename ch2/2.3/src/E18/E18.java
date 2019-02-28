@@ -1,15 +1,15 @@
-package E17;
+package E18;
 
 import edu.princeton.cs.algs4.StdOut;
 import edu.princeton.cs.algs4.StdRandom;
 
 /**
- * @ClassName: Sentry
- * @Description: 习题2.3.17,不知道为什么  老是出现数组越界的问题  按道理是不应该的
+ * @ClassName: E18
+ * @Description: 习题2.3.18 三取样切分
  * @Author: Shuhan Chen
- * @Date: 2019/02/28 13:47
+ * @Date: 2019/02/28 14:17
  */
-public class Sentry {
+public class E18 {
     public static void sort(Comparable[] a){
         StdRandom.shuffle(a);
         sort(a,0,a.length-1);
@@ -27,13 +27,12 @@ public class Sentry {
         int i=lo,j = hi+1;
         Comparable v = a[lo];
         while(true){
-            while(less(a[++i],v));
-
-            while(less(v,a[--j]));
-
-
-            StdOut.println("i:" + i + " j:" + j);//for test
-
+            while(less(a[++i],v)){
+                if(i == hi)break;
+            }
+            while(less(v,a[--j])){
+                if(j == lo)break;
+            }
             if(i>=j)break;
             exch(a,i,j);
         }
@@ -73,6 +72,4 @@ public class Sentry {
         }
 
     }
-
-
 }
