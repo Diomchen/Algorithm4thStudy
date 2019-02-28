@@ -20,10 +20,12 @@ public class E12 {
     }
 
     private static void sort(Comparable[] a , int M){
+        //这里对每一个块内部进行排序
         for(int i=0 ; i<a.length ; i+=M){
             SelectSort(a,i,i+M );
         }
 
+        //此处mid的定义就是，前一个合并块与后一个合并块之间的边界
         for(int i=0 ; i<a.length-M ; i+=M){
             int m = i+2*M-1;
             merge(a,0,m-M,m);
