@@ -5,7 +5,7 @@ import edu.princeton.cs.algs4.StdRandom;
 
 /**
  * @ClassName: Quick
- * @Description: 快排也是用到了"分治"的思想
+ * @Description: 快排也是用到了"分治"的思想;对于小数组，快排比插入排序慢
  * @Author: Shuhan Chen
  * @Date: 2019/01/24 13:23
  */
@@ -24,8 +24,20 @@ public class Quick {
 
     //划分
     private static int partition(Comparable[] a ,int lo,int hi){
-        
-
+        int i=lo,j = hi+1;//q1:为什么要用hi+1
+        Comparable v = a[lo];
+        while(true){
+            while(less(a[++i],v)){//q2：为什么要用++i而不用i++,首先第一个元素是必须要选出来的
+                if(i == hi)break;
+            }
+            while(less(v,a[--j])){
+                if(j == lo)break;
+            }
+            if(i>=j)break;
+            exch(a,i,j);
+        }
+        exch(a,lo,j);
+        return j;
     }
 
     private static boolean less(Comparable v,Comparable w){
