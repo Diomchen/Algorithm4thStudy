@@ -54,6 +54,7 @@ public class E10 {
             aux[k] = a[hi-k+mid+1];
         }
 
+        //j--避免了两边的判断
         for(int k=lo ; k<=hi ; k++) {
             if (less(aux[i], aux[j])) {
                 a[k] = aux[i++];
