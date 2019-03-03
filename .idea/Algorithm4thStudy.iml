@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ch1/1.2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch1/1.3/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch1/1.5/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch2/2.1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch2/2.2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ch2/2.3/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="algs4 (2)" level="project" />
+  </component>
+</module>
