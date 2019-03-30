@@ -14,18 +14,20 @@ public class TrieSum {
         public int value;
         public TreeMap<Character,Node> next;
 
-        public Node(boolean isWord){
+        public Node(boolean isWord,int value){
             this.isWord = isWord;
             next = new TreeMap<>();
+            value = 0;
         }
 
         public Node(){
-            this(false);
+            this(false,0);
         }
     }
 
     public Node root;
     public int size;
+
 
     public TrieSum(){
         root = new Node();
@@ -36,7 +38,7 @@ public class TrieSum {
         return size;
     }
 
-    public void add(String word){
+    public void add(String word,int value){
         Node p = root;
         for(int i=0 ; i<word.length() ; i++){
             char c = word.charAt(i);
@@ -46,6 +48,8 @@ public class TrieSum {
             p = p.next.get(c);
         }
         p.isWord = true;
+        p.value = value;
+        size++;
     }
 
     public boolean contains(String word){
@@ -96,20 +100,46 @@ public class TrieSum {
         }
     }
 
+    public int CalculateWeightSum(String word){
+        Node p = root;
+
+        for(int i=0 ; i<word.length() ; i++){
+            char c = word.charAt(i);
+            if(p.next.get(c)==null){
+                return 0;
+            }
+            p = p.next.get(c);
+        }
+
+
+        return Sum(p);
+    }
+
+    public int Sum(Node node){
+        int sum = node.value;
+        for(char nextChar:node.next.keySet()){
+            sum += Sum(node.next.get(nextChar));
+        }
+        return sum;
+    }
+
 
 
 
     public static void main(String [] args){
-        Trie tr = new Trie();
-        tr.add("Chenshuhan");
-        tr.add("xixihaha");
-        tr.add("yangkaiyou");
-        tr.add("Chens");
+        TrieSum tr = new TrieSum();
+
+        tr.add("Chenshuhan",1);
+        tr.add("xixihaha",2);
+        tr.add("yangkaiyou",3);
+        tr.add("Chens",5);
+        tr.add("Chensfadsfa",5);
 
         System.out.println(tr.contains("Chenshuhan"));
         System.out.println(tr.contains("xixihaha"));
         System.out.println(tr.contains("yangkaiyou"));
-        System.out.println(tr.search("C...s"));
+
+        System.out.println(tr.CalculateWeightSum("Che"));
     }
 
 }
